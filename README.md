@@ -1,74 +1,154 @@
-<<<<<<< HEAD
-# Getting Started with Create React App
+# QuickERP - Simplified ERP System with React
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to QuickERP, a simplified interface for managing basic business operations efficiently. This application is built using React, designed to provide a user-friendly experience for managing key aspects of a business such as product listings and orders. 
 
-## Available Scripts
 
-In the project directory, you can run:
+## Table of Contents
 
-### `npm start`
+- [Quick Start](#quick-start)
+- [Features](#features)
+- [About the application](#about-the-application)
+- [Project Strcture](#project-structure)
+- [Dependencies](#dependencies)
+- [Usage](#usage)
+- [Screenshots](#screenshots)
+- [Contributing](#contributing)
+- [License](#license)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Quick Start
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+To get started with QuickERP, follow these simple steps:
 
-### `npm test`
+1. **Clone the repository:**
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+   ```bash
+   git clone https://github.com/abhishekgadi10/quikerp.git
+   ```
 
-### `npm run build`
+2. **Navigate to the project directory:**
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+   ```bash
+   cd quikerp
+   ```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+3. **Install dependencies:**
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+   ```bash
+   npm install
+   ```
 
-### `npm run eject`
+4. **Start the development server:**
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+   ```bash
+   npm start
+   ```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+5. **Open your browser and visit [http://localhost:3000](http://localhost:3000)**
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Features
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+QuickERP offers the following features:
 
-## Learn More
+- **Dashboard:**
+  - Provides an overview of key metrics and features.
+  - Quick navigation links to Products and Orders management pages.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- **Products Management:**
+  - View a list of products with details such as name, category, price, and stock quantity.
+  - Add, edit, and delete products.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- **Orders Management:**
+  - View a list of orders with details like order ID, customer name, order date, and status.
+  - View order details, update order status, and delete orders.
 
-### Code Splitting
+- **Orders Calendar View:**
+  - Calendar interface displaying orders based on expected delivery dates.
+  - Click on a date to view orders due for delivery that day.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## About the application
 
-### Analyzing the Bundle Size
+QuickERP comes with a range of features to enhance your experience:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- **App Header:** Featuring a logo, name, and notification icons for quick access to important information.
 
-### Making a Progressive Web App
+- **App Footer:** Providing static links for easy navigation within the application.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+- **App Sidebar:** Utilizing react-router-dom for seamless page routing within the application.
 
-### Advanced Configuration
+- **API Integration:** Incorporating API integration to fetch data from the server, ensuring up-to-date information.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+- **Dashboard Page:** Offering comprehensive statistics cards, recent orders, and a revenue chart powered by ChartJS for insightful data visualization.
 
-### Deployment
+- **Table Pages:** Including various table pages such as Products, Orders, and Customers lists for efficient data management.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+- **Notifications and Comments Drawer:** Accessible from the header, allowing users to view and interact with notifications and comments seamlessly.
 
-### `npm run build` fails to minify
+- **Miscellaneous Functions:** Implementing various other functions to enhance the usability and functionality of the admin dashboard portal.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-=======
-# quikerp
->>>>>>> origin/main
+
+## Project Structure
+
+The project structure is organized as follows:
+
+```
+.github/
+  └─ workflows/                 # GitHub Actions workflows (if needed)
+node_modules/                   # Node.js dependencies (ignored in .gitignore)
+public/                         # Public files (e.g., static assets)
+src/                            # Source code
+  └─ API/                       # API related files
+  └─ Components/                # Reusable components
+    └─ AppFooter/               # Footer component
+    └─ AppHeader/               # Header component
+    └─ AppRoutes/               # Routes component
+    └─ PageContent/             # Page content component
+    └─ SideMenu/                # Side menu component
+  └─ Pages/                     # Pages of the application
+    └─ Customers/               # Customers page
+    └─ Dashboard/               # Dashboard page
+    └─ Inventory/               # Inventory page
+    └─ Orders/                  # Orders page
+.env                            # Environment variables (ignored in .gitignore)
+App.css                         # Main CSS file
+App.js                          # Main JavaScript file (entry point)
+App.test.js                     # Test file for the main App component
+index.css                       # CSS file for index.html
+index.js                        # JavaScript file for index.html (entry point)
+logo.svg                        # Logo file
+reportWebVitals.js              # Web Vitals reporting file
+setupTests.js                   # Setup file for Jest tests
+.gitignore                      # Git ignore file
+package-lock.json               # Lock file for Node.js dependencies
+
+```
+
+## Dependencies
+
+QuickERP utilizes the following dependencies:
+
+- `react`: A JavaScript library for building user interfaces.
+- `react-router-dom`: DOM bindings for React Router, allowing navigation between different sections.
+- `react-calendar`: A responsive and modular calendar component for React.
+- `react-icons`: A collection of popular icons as React components.
+- `antd`: A design system for enterprise-level products. It provides a set of high-quality React components out of the box.
+
+## Usage
+
+Once the development server is running, you can navigate through the different sections of the application using the provided links in the navigation bar.
+
+To manage products, click on the "Products" link in the navigation bar. Here you can view, add, edit, and delete products.
+
+Similarly, to manage orders, click on the "Orders" link in the navigation bar. You can view order details, update order status, and delete orders if required.
+
+If the optional calendar view feature is implemented, you can access it through the navigation bar. The calendar will display orders based on their expected delivery dates, and you can click on specific dates to view the corresponding orders.
+
+## Screenshots
+
+
+## Contributing
+
+Contributions are welcome! If you find any issues or have suggestions for improvement, please feel free to open an issue or create a pull request.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
