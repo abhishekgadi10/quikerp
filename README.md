@@ -51,6 +51,7 @@ QuickERP offers the following features:
 - **Dashboard:**
   - Provides an overview of key metrics and features.
   - Quick navigation links to Products and Orders management pages.
+    
 ![image](https://github.com/abhishekgadi10/quikerp/assets/94633826/cc202e42-d68b-4ff9-b170-39e0a6703b9e)
 
 ![Screenshot (189)](https://github.com/abhishekgadi10/quikerp/assets/94633826/58ffe236-c92c-4ab7-84f7-edaf5459570b)
@@ -58,6 +59,7 @@ QuickERP offers the following features:
 - **Products Management:**
   - View a list of products with details such as name, category, price, and stock quantity.
   - Add, edit, and delete products.
+  
 ![Screenshot (190)](https://github.com/abhishekgadi10/quikerp/assets/94633826/255fd012-ce4f-4ca1-a972-3364a653672a)
 
 ![Screenshot (191)](https://github.com/abhishekgadi10/quikerp/assets/94633826/e78b2fd9-5d79-4349-8cb9-4edb7126c974)
@@ -67,6 +69,7 @@ QuickERP offers the following features:
 - **Orders Management:**
   - View a list of orders with details like order ID, customer name, order date, and status.
   - View order details, update order status, and delete orders.
+    
 ![Screenshot (193)](https://github.com/abhishekgadi10/quikerp/assets/94633826/ae3113d8-82ec-40be-b0ff-9c080d35fe22)
 
 ![Screenshot (194)](https://github.com/abhishekgadi10/quikerp/assets/94633826/f2faf69d-76fa-4501-8685-d528942ea362)
