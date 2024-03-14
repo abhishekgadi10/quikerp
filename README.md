@@ -52,6 +52,7 @@ QuickERP offers the following features:
   - Provides an overview of key metrics and features.
   - Quick navigation links to Products and Orders management pages.
 ![image](https://github.com/abhishekgadi10/quikerp/assets/94633826/cc202e42-d68b-4ff9-b170-39e0a6703b9e)
+
 ![Screenshot (189)](https://github.com/abhishekgadi10/quikerp/assets/94633826/58ffe236-c92c-4ab7-84f7-edaf5459570b)
 
 - **Products Management:**
