@@ -1,8 +1,8 @@
 # QuickERP - Simplified ERP System with React
 
-Welcome to QuickERP, a simplified interface for managing basic business operations efficiently. This application is built using React, designed to provide a user-friendly experience for managing key aspects of a business such as product listings and orders. 
+Welcome to QuickERP, a simplified interface for managing basic business operations efficiently. This application is built using React, designed to provide a user-friendly experience for managing key aspects of a business such as product listings and orders.Below, you'll find instructions on how to set up and use the application. 
 
-
+The website is hosted on -[QuikERP](#https://quikerp.netlify.app/)
 ## Table of Contents
 
 - [Quick Start](#quick-start)
@@ -12,8 +12,7 @@ Welcome to QuickERP, a simplified interface for managing basic business operatio
 - [Dependencies](#dependencies)
 - [Usage](#usage)
 - [Screenshots](#screenshots)
-- [Contributing](#contributing)
-- [License](#license)
+
 
 ## Quick Start
 
@@ -83,7 +82,6 @@ QuickERP comes with a range of features to enhance your experience:
 
 - **Notifications and Comments Drawer:** Accessible from the header, allowing users to view and interact with notifications and comments seamlessly.
 
-- **Miscellaneous Functions:** Implementing various other functions to enhance the usability and functionality of the admin dashboard portal.
 
 
 ## Project Structure
@@ -134,21 +132,36 @@ QuickERP utilizes the following dependencies:
 
 ## Usage
 
-Once the development server is running, you can navigate through the different sections of the application using the provided links in the navigation bar.
+Once the development server is running, you can navigate through the different sections of the application using side navigation menu.
 
-To manage products, click on the "Products" link in the navigation bar. Here you can view, add, edit, and delete products.
+To manage products, click on the "Products" link in the side navigation menu. Here you can view, add, edit, and delete products.
 
-Similarly, to manage orders, click on the "Orders" link in the navigation bar. You can view order details, update order status, and delete orders if required.
+Similarly, to manage orders, click on the "Orders" link in the side navigation menu. You can view order details, update order status, and delete orders if required.
 
-If the optional calendar view feature is implemented, you can access it through the navigation bar. The calendar will display orders based on their expected delivery dates, and you can click on specific dates to view the corresponding orders.
+The optional calendar view feature is implemented, you can access it through the side navigation menu. The calendar will display orders based on their expected delivery dates, and you can click on specific dates to view the corresponding orders.
 
 ## Screenshots
+![image](https://github.com/abhishekgadi10/quikerp/assets/94633826/cc202e42-d68b-4ff9-b170-39e0a6703b9e)
 
 
-## Contributing
+![Screenshot (189)](https://github.com/abhishekgadi10/quikerp/assets/94633826/58ffe236-c92c-4ab7-84f7-edaf5459570b)
 
-Contributions are welcome! If you find any issues or have suggestions for improvement, please feel free to open an issue or create a pull request.
+![Screenshot (190)](https://github.com/abhishekgadi10/quikerp/assets/94633826/255fd012-ce4f-4ca1-a972-3364a653672a)
 
-## License
+![Screenshot (191)](https://github.com/abhishekgadi10/quikerp/assets/94633826/e78b2fd9-5d79-4349-8cb9-4edb7126c974)
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+![Screenshot (192)](https://github.com/abhishekgadi10/quikerp/assets/94633826/57306267-dace-42cc-a2ae-aef7a439f9d3)
+
+![Screenshot (193)](https://github.com/abhishekgadi10/quikerp/assets/94633826/ae3113d8-82ec-40be-b0ff-9c080d35fe22)
+
+![Screenshot (194)](https://github.com/abhishekgadi10/quikerp/assets/94633826/f2faf69d-76fa-4501-8685-d528942ea362)
+
+![Screenshot (195)](https://github.com/abhishekgadi10/quikerp/assets/94633826/53fbb92f-f275-4501-8046-31effcbdd4a8)
+
+![Screenshot (196)](https://github.com/abhishekgadi10/quikerp/assets/94633826/ccc2bd6d-7684-44f9-9b04-0fd9bcb0ebde)
+
+![Screenshot (197)](https://github.com/abhishekgadi10/quikerp/assets/94633826/342dad82-ef48-4bd2-887c-c10b267cf0be)
+
+![Screenshot (198)](https://github.com/abhishekgadi10/quikerp/assets/94633826/f14a6553-4abd-4c79-9b84-f590f7e3c921)
+
+
