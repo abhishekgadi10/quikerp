@@ -2,11 +2,11 @@
 
 Welcome to QuickERP, a simplified interface for managing basic business operations efficiently. This application is built using React, designed to provide a user-friendly experience for managing key aspects of a business such as product listings and orders.Below, you'll find instructions on how to set up and use the application. 
 
-The website is hosted on -[QuikERP](https://quikerp.netlify.app/)
+The website is hosted on -[QuickERP](https://quikerp.netlify.app/)
 ## Table of Contents
 
 - [Quick Start](#quick-start)
-- [Features](#features)
+- [Features with Screenshots](#features-with-screenshots)
 - [About the application](#about-the-application)
 - [Project Strcture](#project-structure)
 - [Dependencies](#dependencies)
@@ -44,25 +44,44 @@ To get started with QuickERP, follow these simple steps:
 
 5. **Open your browser and visit [http://localhost:3000](http://localhost:3000)**
 
-## Features
+## Features with Screenshots
 
 QuickERP offers the following features:
 
 - **Dashboard:**
   - Provides an overview of key metrics and features.
   - Quick navigation links to Products and Orders management pages.
+![image](https://github.com/abhishekgadi10/quikerp/assets/94633826/cc202e42-d68b-4ff9-b170-39e0a6703b9e)
+![Screenshot (189)](https://github.com/abhishekgadi10/quikerp/assets/94633826/58ffe236-c92c-4ab7-84f7-edaf5459570b)
 
 - **Products Management:**
   - View a list of products with details such as name, category, price, and stock quantity.
   - Add, edit, and delete products.
+![Screenshot (190)](https://github.com/abhishekgadi10/quikerp/assets/94633826/255fd012-ce4f-4ca1-a972-3364a653672a)
+
+![Screenshot (191)](https://github.com/abhishekgadi10/quikerp/assets/94633826/e78b2fd9-5d79-4349-8cb9-4edb7126c974)
+
+![Screenshot (192)](https://github.com/abhishekgadi10/quikerp/assets/94633826/57306267-dace-42cc-a2ae-aef7a439f9d3)
 
 - **Orders Management:**
   - View a list of orders with details like order ID, customer name, order date, and status.
   - View order details, update order status, and delete orders.
+![Screenshot (193)](https://github.com/abhishekgadi10/quikerp/assets/94633826/ae3113d8-82ec-40be-b0ff-9c080d35fe22)
+
+![Screenshot (194)](https://github.com/abhishekgadi10/quikerp/assets/94633826/f2faf69d-76fa-4501-8685-d528942ea362)
+
+![Screenshot (195)](https://github.com/abhishekgadi10/quikerp/assets/94633826/53fbb92f-f275-4501-8046-31effcbdd4a8)
 
 - **Orders Calendar View:**
   - Calendar interface displaying orders based on expected delivery dates.
   - Click on a date to view orders due for delivery that day.
+
+![Screenshot (196)](https://github.com/abhishekgadi10/quikerp/assets/94633826/ccc2bd6d-7684-44f9-9b04-0fd9bcb0ebde)
+
+![Screenshot (197)](https://github.com/abhishekgadi10/quikerp/assets/94633826/342dad82-ef48-4bd2-887c-c10b267cf0be)
+
+![Screenshot (198)](https://github.com/abhishekgadi10/quikerp/assets/94633826/f14a6553-4abd-4c79-9b84-f590f7e3c921)
+
 
 ## About the application
 
