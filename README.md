@@ -2,7 +2,7 @@
 
 Welcome to QuickERP, a simplified interface for managing basic business operations efficiently. This application is built using React, designed to provide a user-friendly experience for managing key aspects of a business such as product listings and orders.Below, you'll find instructions on how to set up and use the application. 
 
-The website is hosted on -[QuikERP](#https://quikerp.netlify.app/)
+The website is hosted on -[QuikERP](https://quikerp.netlify.app/)
 ## Table of Contents
 
 - [Quick Start](#quick-start)
