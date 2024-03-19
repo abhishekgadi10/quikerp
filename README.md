@@ -11,7 +11,6 @@ The website is hosted on -[QuickERP](https://quikerp.netlify.app/)
 - [Project Strcture](#project-structure)
 - [Dependencies](#dependencies)
 - [Usage](#usage)
-- [Screenshots](#screenshots)
 
 
 ## Quick Start
